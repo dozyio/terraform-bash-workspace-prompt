@@ -20,4 +20,9 @@ function terraform_workspace_prompt()
     fi
 }
 
-export PS1=${PS1/ \\\u\\\$/\$(terraform_workspace_prompt) \\\u\\\$}
+if [[ "$OSTYPE" == "darwin"* ]]; then 
+    export PS1=${PS1/ \\\u\\\$/\$(terraform_workspace_prompt) \\\u\\\$}
+elif [[ "$OSTYPE" == "linux-gnu" ]]; then
+    export PS1=${PS1/\\\$/\$(terraform_workspace_prompt) \\\$}
+fi
+
