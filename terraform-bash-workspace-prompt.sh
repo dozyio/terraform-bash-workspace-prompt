@@ -1,4 +1,4 @@
-#/bin/bash
+#!/usr/bin/env bash
 
 TFPURPLE="$(echo -e "\001\033[35m\002(TF:\001\033[0m\002")"
 TFPURPLECB="$(echo -e "\001\033[35m\002)\001\033[0m\002")"
