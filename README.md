@@ -2,7 +2,7 @@
 
 Show which workspace you are using within your bash prompt. Colour coded for dev & production - easy to extend to other environments.
 
-[![asciicast](https://asciinema.org/a/351587.svg)](https://asciinema.org/a/351587&autoplay=1)
+[![asciicast](https://asciinema.org/a/351587.svg)](https://asciinema.org/a/351587?autoplay=1)
 
 # Install
 ```sh
