@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# dozy.io 2020
+# Download latest version from https://github.com/dozyio/terraform-bash-workspace-prompt
+
 TFPURPLE="$(echo -e "\001\033[35m\002(TF:\001\033[0m\002")"
 TFPURPLECB="$(echo -e "\001\033[35m\002)\001\033[0m\002")"
 
